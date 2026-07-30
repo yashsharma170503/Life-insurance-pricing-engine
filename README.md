@@ -104,10 +104,6 @@ The dashboard summarizes:
 ## Future Enhancements
 
 - Multiple product pricing (Term, Endowment, Whole Life)
-- Stochastic mortality modelling
-- Sensitivity and scenario analysis
-- IFRS 17 pricing metrics
-- Excel VBA automation
 - Dynamic assumption management
 
 ---
@@ -126,5 +122,3 @@ The dashboard summarizes:
 ## Author
 
 Developed by Yash Upadhaya
-
-Actuarial Science | Financial Modelling | Excel Automation
