@@ -1,23 +1,23 @@
 ## Dashboard
 
-![Dashboard](images/Dashboard.jpeg)
+![Dashboard](Dashboard.jpeg)
 
 ## Inputs
 
-![Inputs](images/Input.jpeg)
+![Inputs](Input.jpeg)
 
 ## Premium Summary
 
-![Premium Summary](images/Premium_Summary.jpeg)
+![Premium Summary](Premium_Summary.jpeg)
 
 ## Cash Flow Projection
 
-![Cash Flow](images/Cashflow.jpeg)
+![Cash Flow](Cashflow.jpeg)
 
 ## Mortality Table
 
-![Mortality Table](images/Mortality_Table.jpeg)
+![Mortality Table](Mortality_Table.jpeg)
 
 ## Validation Checks
 
-![Validation Checks](images/Check.jpeg)
+![Validation Checks](Check.jpeg)
