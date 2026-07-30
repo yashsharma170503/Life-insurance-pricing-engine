@@ -1,87 +1,128 @@
-# 📈 Life Insurance Pricing Engine
+# 📊 Life Insurance Pricing Engine
 
-## Overview
+An Excel-based actuarial pricing model developed to calculate **Net Premium** and **Gross Premium** for a life insurance product using actuarial pricing principles.
 
-This project demonstrates the development of a **Life Insurance Pricing Engine** using actuarial principles. The objective is to calculate the annual premium for a level term life insurance policy based on mortality assumptions, interest rates, policy details, and actuarial present value techniques.
-
-The project is being built as part of my actuarial portfolio to strengthen both actuarial modelling and technical skills using industry-relevant tools.
+The project demonstrates premium pricing, cash flow projection, expense loading, commission modelling, validation checks, and an interactive dashboard.
 
 ---
 
-## Objectives
+## Features
 
-* Build a pricing model in Microsoft Excel.
-* Automate calculations using Python.
-* Apply actuarial pricing concepts from CM1.
-* Perform sensitivity analysis on key assumptions.
-* Develop a professional actuarial project suitable for interviews and portfolio presentation.
-
----
-
-## Tools & Technologies
-
-* Microsoft Excel
-* Python
-* Git & GitHub
+- Net Premium Calculation using EPV principles
+- Gross Premium Pricing
+- Mortality Table Integration
+- Discounted Cash Flow Projection
+- Initial & Renewal Expense Modelling
+- Initial & Renewal Commission Modelling
+- Profit Loading
+- Interactive Dashboard
+- Automated Validation Checks
+- Scenario-based Pricing Inputs
 
 ---
 
-## Actuarial Concepts Covered
+## Workbook Structure
 
-* Mortality Tables
-* Probability of Death ((q_x))
-* Survival Probability ((p_x))
-* Discount Factors
-* Expected Present Value (EPV)
-* Net Premium Calculation
-* Equivalence Principle
-* Sensitivity Analysis
-
----
-
-## Current Project Status
-
-🚧 In Development
-
-Completed:
-
-* Project repository setup
-* Excel workbook structure
-* Inputs sheet
-* Assumptions sheet
-* GitHub project initialization
-
-Upcoming:
-
-* Mortality table integration
-* Premium calculation engine
-* Sensitivity analysis
-* Python automation
-* Documentation and dashboard
+| Sheet | Purpose |
+|--------|---------|
+| Inputs | Product assumptions and pricing inputs |
+| Mortality_Table | Mortality rates and survival probabilities |
+| Calculations | EPV of Benefits |
+| Premium_Calculations | Premium present value calculations |
+| Cashflow | Projected policy cash flows |
+| Premium | Net & Gross Premium Summary |
+| Dashboard | Visual summary of results |
+| Checks | Model validation and integrity checks |
 
 ---
 
-## Repository Structure
+## Pricing Methodology
 
-```text
-Excel/
-Python/
-Data/
-Images/
-Documentation/
-README.md
-```
+The model follows the actuarial pricing equation:
+
+PV(Gross Premiums)
+
+=
+
+PV(Benefits)
+
++
+
+PV(Expenses)
+
++
+
+PV(Commissions)
+
++
+
+PV(Profit)
+
+Net Premium is calculated as:
+
+Net Premium = EPV(Benefits) / Premium Annuity Factor
+
+Gross Premium incorporates:
+
+- Initial Expenses
+- Renewal Expenses
+- Initial Commission
+- Renewal Commission
+- Profit Loading
 
 ---
 
-## Learning Goals
+## Validation Checks
 
-This project focuses on developing practical actuarial modelling skills while improving proficiency in Excel, Python, Git, and GitHub. It is designed to simulate the workflow followed by actuarial analysts when building pricing models.
+The model includes automated validation for:
+
+- Input validation
+- Interest rate validation
+- Premium positivity
+- Gross Premium ≥ Net Premium
+- Pricing equation reconciliation
+- Premium PV Factor validation
+- Expense loading validation
+- Model status indicator
 
 ---
+
+## Dashboard
+
+The dashboard summarizes:
+
+- Net Premium
+- Gross Premium
+- EPV of Benefits
+- Premium PV Factor
+- Expense Loading
+- Profit Loading
+- Model Status
+
+---
+
+## Future Enhancements
+
+- Multiple product pricing (Term, Endowment, Whole Life)
+- Stochastic mortality modelling
+- Sensitivity and scenario analysis
+- IFRS 17 pricing metrics
+- Excel VBA automation
+- Dynamic assumption management
+
+---
+
+## Skills Demonstrated
+
+- Actuarial Pricing
+- Life Insurance Mathematics
+- Cash Flow Projection
+- Excel Modelling
+- Financial Mathematics
+- Risk Analysis
+- Dashboard Design
+- Model Validation
 
 ## Author
 
 **Yash Upadhaya**
-
-Actuarial Student | CB1 & CB2 Cleared | CM1 Appeared
