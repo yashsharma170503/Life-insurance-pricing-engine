@@ -125,4 +125,6 @@ The dashboard summarizes:
 
 ## Author
 
-**Yash Upadhaya**
+Developed by Yash Upadhaya
+
+Actuarial Science | Financial Modelling | Excel Automation
