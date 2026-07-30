@@ -103,8 +103,7 @@ The dashboard summarizes:
 
 ## Future Enhancements
 
-- Multiple product pricing (Term, Endowment, Whole Life)
-- Dynamic assumption management
+- Multiple product pricing (Term, Endowment, Whole Life, ULIP)
 
 ---
 
