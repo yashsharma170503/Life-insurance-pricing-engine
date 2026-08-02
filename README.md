@@ -6,6 +6,15 @@ The project demonstrates premium pricing, cash flow projection, expense loading,
 
 ---
 
+## Latest Updates (v1.1)
+
+- Added VBA-powered dashboard automation.
+- Dashboard charts now update automatically based on the selected policy term.
+- Converted the workbook to a macro-enabled Excel model (`.xlsm`).
+- Improved dashboard interactivity and overall user experience.
+
+---
+
 ## Features
 
 - Net Premium Calculation using EPV principles
