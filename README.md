@@ -15,7 +15,7 @@ The project demonstrates premium pricing, cash flow projection, expense loading,
 - Initial & Renewal Expense Modelling
 - Initial & Renewal Commission Modelling
 - Profit Loading
-- Interactive Dashboard
+- Interactive VBA-powered Dashboard with automated chart updates
 - Automated Validation Checks
 - Scenario-based Pricing Inputs
 
@@ -101,9 +101,31 @@ The dashboard summarizes:
 
 ---
 
+## Usage
+
+1. Download the workbook (`Life-Insurance-Pricing-Engine.xlsm`).
+2. Open the workbook in Microsoft Excel.
+3. Click **Enable Editing** (if prompted).
+4. Click **Enable Content** to allow VBA macros to run.
+5. Enter the required policy inputs in the **Inputs** sheet.
+6. The model automatically calculates premiums, projects cash flows, and updates the dashboard based on the selected policy term.
+
+---
+
+## Important Notes
+
+- This workbook contains VBA macros used to automate dashboard updates.
+- Please enable macros when opening the workbook to ensure all automated features function correctly.
+- If macros are disabled, all actuarial calculations will continue to work, but dashboard automation will not be available.
+
+---
+
 ## Future Enhancements
 
-- Multiple product pricing (Term, Endowment, Whole Life, ULIP)
+- Whole Life Insurance Pricing
+- Endowment Insurance Pricing
+- Pure Endowment Insurance Pricing
+- Unit Linked Insurance Plan (ULIP) Pricing
 
 ---
 
