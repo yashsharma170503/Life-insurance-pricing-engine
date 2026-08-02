@@ -1,6 +1,6 @@
 ## Dashboard
 
-![Dashboard](Dashboard.jpeg)
+![Dashboard](Dashboardv1.1.jpeg)
 
 ## Inputs
 
